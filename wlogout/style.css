@@ -1,0 +1,44 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(30, 30, 46, 0.5);
+	font-size: 14px;
+	color: #cdd6f4;
+}
+
+button {
+    border-radius: 0;
+    border-color: black;
+	text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
+	background-color: #1E1E1E;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 20%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	margin: 30px;
+	transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:focus {
+	background-color: #cba6f7;
+	outline-style: none;
+	background-size: 35%;
+}
+
+
+#logout {
+    background-image: image(url("logout.png"));
+}
+#shutdown {
+    background-image: image(url("power.png"));
+}
+
+#reboot {
+    background-image: image(url("restart.png"));
+}
